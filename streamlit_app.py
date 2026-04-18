@@ -210,6 +210,14 @@ def compute_lab3(l: float, N: float, t: float) -> dict:
     return {"l": l, "N": N, "t": t, "g": g}
 
 
+def compute_lab4(t: float, l: float) -> dict:
+    """υ = l / t"""
+    if t == 0:
+        raise ZeroDivisionError("t не может быть равно нулю")
+    v = l / t
+    return {"t": t, "l": l, "v": v}
+
+
 # ═══════════════════════════════════════════════════════════════════════════════
 #  ФОРМАТИРОВАНИЕ РЕЗУЛЬТАТОВ
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -225,6 +233,10 @@ def format_lab2_result(idx: int, r: dict) -> str:
 def format_lab3_result(idx: int, r: dict) -> str:
     return (f"  Тәжірибе {idx}:  l={r['l']:.3f} м,  "
             f"N={r['N']:.0f},  t={r['t']:.3f} с  →  g = {r['g']:.4f} м/с²")
+
+def format_lab4_result(idx: int, r: dict) -> str:
+    return (f"  Тәжірибе {idx}:  t={r['t']:.3f} с,  "
+            f"l={r['l']:.3f} м  →  υ = {r['v']:.4f} м/с")
 
 def format_errors(err: dict, symbol: str, unit: str) -> str:
     pct = err["rel_err"] * 100
@@ -556,6 +568,84 @@ def page_lab3():
         )
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+
+def page_lab4():
+    st.markdown('<div class="lab-badge">Лаб. работа №4</div>', unsafe_allow_html=True)
+    st.markdown("### №4 Беттік толқындардың таралу жылдамдығын анықтау")
+    st.caption("Определение скорости распространения поверхностных волн")
+    st.markdown('<div class="formula-box">υ = l / t</div>', unsafe_allow_html=True)
+
+    if "lab4_count" not in st.session_state:
+        st.session_state.lab4_count = 1
+
+    col_add, col_remove, _ = st.columns([1, 1, 6])
+    with col_add:
+        if st.button("＋ Тәжірибе қосу", key="lab4_add", use_container_width=True):
+            st.session_state.lab4_count += 1
+    with col_remove:
+        if st.button("－ Жою", key="lab4_remove", use_container_width=True,
+                     disabled=st.session_state.lab4_count <= 1):
+            st.session_state.lab4_count -= 1
+
+    st.divider()
+
+    tab_labels = [f"Тәжірибе {i+1}" for i in range(st.session_state.lab4_count)]
+    tabs = st.tabs(tab_labels)
+
+    all_t, all_l = [], []
+    for i, tab in enumerate(tabs):
+        with tab:
+            st.markdown('<div class="exp-card">', unsafe_allow_html=True)
+            t = experiment_number_input("t — уақыт (время)", "с",
+                                        key=f"lab4_t_{i}", value=1.0)
+            l = experiment_number_input("l — Ыдыстың ұзындығы (длина сосуда)", "м",
+                                        key=f"lab4_l_{i}", value=1.0)
+            st.markdown("</div>", unsafe_allow_html=True)
+            all_t.append(t)
+            all_l.append(l)
+
+    st.divider()
+    if st.button("⚡ Есептеу / Рассчитать", key="lab4_calc",
+                 use_container_width=True, type="primary"):
+        results = []
+        error_occurred = False
+        for i, (t, l) in enumerate(zip(all_t, all_l)):
+            try:
+                results.append(compute_lab4(t, l))
+            except ZeroDivisionError as e:
+                st.error(f"Опыт {i+1}: {e}")
+                error_occurred = True
+                break
+        if not error_occurred:
+            errors = calc_errors([r["v"] for r in results])
+            st.session_state["lab4_results"] = results
+            st.session_state["lab4_errors"]  = errors
+
+    if "lab4_results" in st.session_state:
+        results = st.session_state["lab4_results"]
+        errors  = st.session_state["lab4_errors"]
+
+        st.markdown("#### 📊 Нәтиже / Результат")
+        metrics_row(results, errors, "v", "м/с")
+
+        txt_result = format_result_block(
+            results, errors, format_lab4_result, "υ", "м/с")
+        st.markdown(f'<div class="result-box">{txt_result}</div>',
+                    unsafe_allow_html=True)
+
+        txt_content = build_txt(
+            "№4 Беттік толқындардың таралу жылдамдығын анықтау",
+            results, errors, format_lab4_result, "υ", "м/с")
+        st.download_button(
+            label="💾 TXT экспорт",
+            data=txt_content.encode("utf-8"),
+            file_name="lab4_result.txt",
+            mime="text/plain",
+            key="lab4_download"
+        )
+
+
 # ═══════════════════════════════════════════════════════════════════════════════
 #  ГЛАВНЫЙ РОУТЕР
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -584,9 +674,10 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
     LABS = [
-        ("№1  Теңүдемелі қозғалыс",  "lab1"),
-        ("№2  Горизонталь лақтыру",   "lab2"),
-        ("№3  Математикалық маятник", "lab3"),
+        ("№1  Теңүдемелі қозғалыс",    "lab1"),
+        ("№2  Горизонталь лақтыру",     "lab2"),
+        ("№3  Математикалық маятник",   "lab3"),
+        ("№4  Беттік толқын жылдамдығы", "lab4"),
     ]
 
     if "active_lab" not in st.session_state:
@@ -619,3 +710,5 @@ elif st.session_state.active_lab == "lab2":
     page_lab2()
 elif st.session_state.active_lab == "lab3":
     page_lab3()
+elif st.session_state.active_lab == "lab4":
+    page_lab4()

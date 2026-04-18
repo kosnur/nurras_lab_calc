@@ -8,10 +8,12 @@
 from app.labs.lab1 import Lab1Frame
 from app.labs.lab2 import Lab2Frame
 from app.labs.lab3 import Lab3Frame
+from app.labs.lab4 import Lab4Frame
 
 # (label в сайдбаре,  класс виджета)
 LABS: list = [
-    ("№1  Теңүдемелі қозғалыс", Lab1Frame),
-    ("№2  Горизонталь лақтыру",  Lab2Frame),
-    ("№3  Математикалық маятник", Lab3Frame),
+    ("№1  Теңүдемелі қозғалыс",    Lab1Frame),
+    ("№2  Горизонталь лақтыру",     Lab2Frame),
+    ("№3  Математикалық маятник",   Lab3Frame),
+    ("№4  Беттік толқын жылдамдығы", Lab4Frame),
 ]
