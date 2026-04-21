@@ -55,36 +55,91 @@ TRANSLATIONS = {
         "abs_err_text": "Абсолютті қате (абс. погр.)",
         "rel_err_text": "Салыстырмалы қате (отн. погр.)",
         "count_text": "Тәжірибелер саны (кол-во опытов)",
-        # Lab nav labels
+        # Lab nav labels — 9 сынып
+        "grade9_section": "9-СЫНЫП",
         "lab1_nav": "№1  Теңүдемелі қозғалыс",
         "lab2_nav": "№2  Горизонталь лақтыру",
         "lab3_nav": "№3  Математикалық маятник",
         "lab4_nav": "№4  Беттік толқын жылдамдығы",
-        # Lab 1
-        "lab1_badge": "Зерт. жұмыс №1",
+        # Lab nav labels — 10 сынып
+        "grade10_section": "10-СЫНЫП",
+        "lab10_1_nav": "№1  Көлбеу науа бойымен үдеу",
+        "lab10_2_nav": "№2  Ұшу қашықтығы мен бұрыш",
+        "lab10_3_nav": "№3  Домалайтын дене қозғалысы",
+        "lab10_4_nav": "№4  Күштерді қосу",
+        # Lab nav labels — 11 сынып
+        "grade11_section": "11-СЫНЫП",
+        "lab11_1_nav": "№1  Трансформатор орамдары",
+        # Lab 1 (9 сынып)
+        "lab1_badge": "9-сынып · Зерт. жұмыс №1",
         "lab1_title": "№1 Теңүдемелі қозғалыс кезіндегі дененің үдеуін анықтау",
         "lab1_caption": "Определение ускорения тела при равноускоренном движении",
         "lab1_S": "S — арақашықтық (расстояние)",
         "lab1_t": "t — қозғалыс уақыты (время)",
-        # Lab 2
-        "lab2_badge": "Зерт. жұмыс №2",
+        # Lab 2 (9 сынып)
+        "lab2_badge": "9-сынып · Зерт. жұмыс №2",
         "lab2_title": "№2 Горизонталь лақтырылған дененің қозғалысын зерделеу",
         "lab2_caption": "Изучение движения тела, брошенного горизонтально",
         "lab2_h": "h — биіктік (высота)",
         "lab2_l": "l — ұшу қашықтығы (дальность)",
-        # Lab 3
-        "lab3_badge": "Зерт. жұмыс №3",
+        # Lab 3 (9 сынып)
+        "lab3_badge": "9-сынып · Зерт. жұмыс №3",
         "lab3_title": "№3 Математикалық маятниктің көмегімен еркін түсу үдеуін анықтау",
         "lab3_caption": "Определение ускорения свободного падения с помощью математического маятника",
         "lab3_l": "l — жіптің ұзындығы (длина нити)",
         "lab3_N": "N — тербеліс саны (число колебаний)",
         "lab3_t": "t — тербеліс уақыты (время)",
-        # Lab 4
-        "lab4_badge": "Зерт. жұмыс №4",
+        # Lab 4 (9 сынып)
+        "lab4_badge": "9-сынып · Зерт. жұмыс №4",
         "lab4_title": "№4 Беттік толқындардың таралу жылдамдығын анықтау",
         "lab4_caption": "Определение скорости распространения поверхностных волн",
         "lab4_t": "t — уақыт (время)",
         "lab4_l": "l — Ыдыстың ұзындығы (длина сосуда)",
+        # Lab 10-1
+        "lab10_1_badge": "10-сынып · Зерт. жұмыс №1",
+        "lab10_1_title": "№1 Көлбеу науа бойымен қозғалатын дененің үдеуін анықтау",
+        "lab10_1_caption": "Определение ускорения тела, движущегося по наклонному лотку",
+        "lab10_1_S": "S — арақашықтық (расстояние)",
+        "lab10_1_t": "t — қозғалыс уақыты (время)",
+        # Lab 10-2
+        "lab10_2_badge": "10-сынып · Зерт. жұмыс №2",
+        "lab10_2_title": "№2 Дененің ұшу қашықтығының лақтыру бұрышына тәуелділігін зерттеу",
+        "lab10_2_caption": "Исследование зависимости дальности полёта тела от угла бросания",
+        "lab10_2_angle": "Бұрыш (Угол бросания)",
+        "lab10_2_l": "Ұшу қашықтығы (Дальность полёта), см",
+        "lab10_2_mean": "Орташа мән (Среднее)",
+        "lab10_2_graph_title": "Ұшу қашықтығы мен бұрыш тәуелділігі",
+        "lab10_2_graph_x": "Бұрыш (°)",
+        "lab10_2_graph_y": "Орташа қашықтық (см)",
+        # Lab 10-3
+        "lab10_3_badge": "10-сынып · Зерт. жұмыс №3",
+        "lab10_3_title": "№3 Көлбеу науамен домалайтын дененің қозғалысын оқып үйрену",
+        "lab10_3_caption": "Изучение движения тела, катящегося по наклонному лотку",
+        "lab10_3_m": "m — масса (масса тела)",
+        "lab10_3_R": "R — радиус (радиус тела)",
+        "lab10_3_h": "h — биіктік (высота центра масс)",
+        "lab10_3_H": "H — толық биіктік (полная высота)",
+        "lab10_3_l": "l — ұзындық (длина лотка)",
+        # Lab 10-4
+        "lab10_4_badge": "10-сынып · Зерт. жұмыс №4",
+        "lab10_4_title": "№4 Бір-біріне бұрыш жасай бағытталған күштерді қосу",
+        "lab10_4_caption": "Сложение сил, направленных под углом друг к другу",
+        "lab10_4_G": "G — ауырлық күш (сила тяжести), Н",
+        "lab10_4_Fk1": "Fk1 — керілу күші 1 (сила натяжения 1), Н",
+        "lab10_4_Fk2": "Fk2 — керілу күші 2 (сила натяжения 2), Н",
+        "lab10_4_alpha": "α — бұрыш (угол между силами), °",
+        # Lab 11-1
+        "lab11_1_badge": "11-сынып · Зерт. жұмыс №1",
+        "lab11_1_title": "№1 Трансформатор орамдарының санын анықтау",
+        "lab11_1_caption": "Определение числа витков трансформатора",
+        "lab11_1_calc1_header": "1-есептеу: N1 табу",
+        "lab11_1_N2": "N2 — уақытша орамадағы орамдар саны",
+        "lab11_1_U2_a": "U2 — уақытша орамадағы кернеу, В",
+        "lab11_1_U1_a": "U1 — бірінші реттік орамадағы кернеу, В",
+        "lab11_1_calc2_header": "2-есептеу: N2 табу",
+        "lab11_1_N1": "N1жуық — бірінші реттік орамадағы орамдардың жуық саны",
+        "lab11_1_U2_b": "U2 — екінші реттік орамадағы кернеу, В",
+        "lab11_1_U1_b": "U1 — бірінші реттік орамадағы кернеу, В",
         # CSV header
         "csv_exp_col": "Тәжірибе",
         "csv_mean_row": "Орташа мән",
@@ -121,36 +176,91 @@ TRANSLATIONS = {
         "abs_err_text": "Абсолютная погрешность (абс. қате)",
         "rel_err_text": "Относительная погрешность (отн. қате)",
         "count_text": "Количество опытов (тәжірибелер саны)",
-        # Lab nav labels
+        # Lab nav labels — 9 класс
+        "grade9_section": "9-КЛАСС",
         "lab1_nav": "№1  Равноускоренное движение",
         "lab2_nav": "№2  Горизонтальный бросок",
         "lab3_nav": "№3  Математический маятник",
         "lab4_nav": "№4  Скорость поверхн. волн",
-        # Lab 1
-        "lab1_badge": "Лаб. работа №1",
+        # Lab nav labels — 10 класс
+        "grade10_section": "10-КЛАСС",
+        "lab10_1_nav": "№1  Ускорение по наклон. лотку",
+        "lab10_2_nav": "№2  Дальность и угол бросания",
+        "lab10_3_nav": "№3  Катящееся тело",
+        "lab10_4_nav": "№4  Сложение сил",
+        # Lab nav labels — 11 класс
+        "grade11_section": "11-КЛАСС",
+        "lab11_1_nav": "№1  Витки трансформатора",
+        # Lab 1 (9 класс)
+        "lab1_badge": "9-класс · Лаб. работа №1",
         "lab1_title": "№1 Определение ускорения тела при равноускоренном движении",
         "lab1_caption": "Теңүдемелі қозғалыс кезіндегі дененің үдеуін анықтау",
         "lab1_S": "S — расстояние (арақашықтық)",
         "lab1_t": "t — время движения (қозғалыс уақыты)",
-        # Lab 2
-        "lab2_badge": "Лаб. работа №2",
+        # Lab 2 (9 класс)
+        "lab2_badge": "9-класс · Лаб. работа №2",
         "lab2_title": "№2 Изучение движения тела, брошенного горизонтально",
         "lab2_caption": "Горизонталь лақтырылған дененің қозғалысын зерделеу",
         "lab2_h": "h — высота (биіктік)",
         "lab2_l": "l — дальность (ұшу қашықтығы)",
-        # Lab 3
-        "lab3_badge": "Лаб. работа №3",
+        # Lab 3 (9 класс)
+        "lab3_badge": "9-класс · Лаб. работа №3",
         "lab3_title": "№3 Определение ускорения свободного падения с помощью математического маятника",
         "lab3_caption": "Математикалық маятниктің көмегімен еркін түсу үдеуін анықтау",
         "lab3_l": "l — длина нити (жіптің ұзындығы)",
         "lab3_N": "N — число колебаний (тербеліс саны)",
         "lab3_t": "t — время (тербеліс уақыты)",
-        # Lab 4
-        "lab4_badge": "Лаб. работа №4",
+        # Lab 4 (9 класс)
+        "lab4_badge": "9-класс · Лаб. работа №4",
         "lab4_title": "№4 Определение скорости распространения поверхностных волн",
         "lab4_caption": "Беттік толқындардың таралу жылдамдығын анықтау",
         "lab4_t": "t — время (уақыт)",
         "lab4_l": "l — длина сосуда (ыдыстың ұзындығы)",
+        # Lab 10-1
+        "lab10_1_badge": "10-класс · Лаб. работа №1",
+        "lab10_1_title": "№1 Определение ускорения тела, движущегося по наклонному лотку",
+        "lab10_1_caption": "Көлбеу науа бойымен қозғалатын дененің үдеуін анықтау",
+        "lab10_1_S": "S — расстояние (арақашықтық)",
+        "lab10_1_t": "t — время движения (қозғалыс уақыты)",
+        # Lab 10-2
+        "lab10_2_badge": "10-класс · Лаб. работа №2",
+        "lab10_2_title": "№2 Исследование зависимости дальности полёта тела от угла бросания",
+        "lab10_2_caption": "Дененің ұшу қашықтығының лақтыру бұрышына тәуелділігін зерттеу",
+        "lab10_2_angle": "Угол бросания",
+        "lab10_2_l": "Дальность полёта (Ұшу қашықтығы), см",
+        "lab10_2_mean": "Среднее (Орташа мән)",
+        "lab10_2_graph_title": "Зависимость дальности полёта от угла",
+        "lab10_2_graph_x": "Угол (°)",
+        "lab10_2_graph_y": "Средняя дальность (см)",
+        # Lab 10-3
+        "lab10_3_badge": "10-класс · Лаб. работа №3",
+        "lab10_3_title": "№3 Изучение движения тела, катящегося по наклонному лотку",
+        "lab10_3_caption": "Көлбеу науамен домалайтын дененің қозғалысын оқып үйрену",
+        "lab10_3_m": "m — масса тела",
+        "lab10_3_R": "R — радиус тела",
+        "lab10_3_h": "h — высота центра масс",
+        "lab10_3_H": "H — полная высота",
+        "lab10_3_l": "l — длина лотка",
+        # Lab 10-4
+        "lab10_4_badge": "10-класс · Лаб. работа №4",
+        "lab10_4_title": "№4 Сложение сил, направленных под углом друг к другу",
+        "lab10_4_caption": "Бір-біріне бұрыш жасай бағытталған күштерді қосу",
+        "lab10_4_G": "G — сила тяжести, Н",
+        "lab10_4_Fk1": "Fk1 — сила натяжения 1, Н",
+        "lab10_4_Fk2": "Fk2 — сила натяжения 2, Н",
+        "lab10_4_alpha": "α — угол между силами, °",
+        # Lab 11-1
+        "lab11_1_badge": "11-класс · Лаб. работа №1",
+        "lab11_1_title": "№1 Определение числа витков трансформатора",
+        "lab11_1_caption": "Трансформатор орамдарының санын анықтау",
+        "lab11_1_calc1_header": "Расчёт 1: Найти N1",
+        "lab11_1_N2": "N2 — число витков временной обмотки",
+        "lab11_1_U2_a": "U2 — напряжение временной обмотки, В",
+        "lab11_1_U1_a": "U1 — напряжение первичной обмотки, В",
+        "lab11_1_calc2_header": "Расчёт 2: Найти N2",
+        "lab11_1_N1": "N1прибл — приближённое число витков первичной обмотки",
+        "lab11_1_U2_b": "U2 — напряжение вторичной обмотки, В",
+        "lab11_1_U1_b": "U1 — напряжение первичной обмотки, В",
         # CSV header
         "csv_exp_col": "Опыт",
         "csv_mean_row": "Среднее",
@@ -498,6 +608,49 @@ def compute_lab4(t_val: float, l: float) -> dict:
     return {"t": t_val, "l": l, "v": v}
 
 
+# ── 10 класс ──────────────────────────────────────────────────────────────────
+
+def compute_lab10_1(S: float, t_val: float) -> dict:
+    """a = 2S / t²  (наклонный лоток)"""
+    if t_val == 0:
+        raise ZeroDivisionError("t не может быть равно нулю")
+    a = 2 * S / (t_val ** 2)
+    return {"S": S, "t": t_val, "a": a}
+
+
+def compute_lab10_3(m: float, R: float, h: float, H: float, l: float) -> dict:
+    """J = m·R²·(4hH − l²) / l²"""
+    if l == 0:
+        raise ZeroDivisionError("l не может быть равно нулю")
+    J = m * R ** 2 * (4 * h * H - l ** 2) / (l ** 2)
+    return {"m": m, "R": R, "h": h, "H": H, "l": l, "J": J}
+
+
+def compute_lab10_4(Fk1: float, Fk2: float, alpha_deg: float) -> dict:
+    """R = √(Fk1² + Fk2² − 2·Fk1·Fk2·cos α)"""
+    alpha_rad = math.radians(alpha_deg)
+    R = math.sqrt(Fk1 ** 2 + Fk2 ** 2 - 2 * Fk1 * Fk2 * math.cos(alpha_rad))
+    return {"Fk1": Fk1, "Fk2": Fk2, "alpha": alpha_deg, "R": R}
+
+
+# ── 11 класс ──────────────────────────────────────────────────────────────────
+
+def compute_lab11_1_N1(N2: float, U2: float, U1: float) -> dict:
+    """N1 = U1·N2 / U2"""
+    if U2 == 0:
+        raise ZeroDivisionError("U2 не может быть равно нулю")
+    N1 = U1 * N2 / U2
+    return {"N2": N2, "U2": U2, "U1": U1, "N1": N1}
+
+
+def compute_lab11_1_N2(N1: float, U2: float, U1: float) -> dict:
+    """N2 = U2·N1 / U1"""
+    if U1 == 0:
+        raise ZeroDivisionError("U1 не может быть равно нулю")
+    N2 = U2 * N1 / U1
+    return {"N1": N1, "U2": U2, "U1": U1, "N2": N2}
+
+
 # ═══════════════════════════════════════════════════════════════════════════════
 #  ФОРМАТИРОВАНИЕ РЕЗУЛЬТАТОВ
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -517,6 +670,18 @@ def format_lab3_result(idx: int, r: dict) -> str:
 def format_lab4_result(idx: int, r: dict) -> str:
     return (f"  {t('exp_label')} {idx}:  t={r['t']:.3f} с,  "
             f"l={r['l']:.3f} м  →  υ = {r['v']:.4f} м/с")
+
+def format_lab10_1_result(idx: int, r: dict) -> str:
+    return (f"  {t('exp_label')} {idx}:  S={r['S']:.3f} м,  "
+            f"t={r['t']:.3f} с  →  a = {r['a']:.4f} м/с²")
+
+def format_lab10_3_result(idx: int, r: dict) -> str:
+    return (f"  {t('exp_label')} {idx}:  m={r['m']:.3f} кг, R={r['R']:.3f} м, "
+            f"h={r['h']:.3f} м, H={r['H']:.3f} м, l={r['l']:.3f} м  →  J = {r['J']:.4f} кг·м²")
+
+def format_lab10_4_result(idx: int, r: dict) -> str:
+    return (f"  {t('exp_label')} {idx}:  Fk1={r['Fk1']:.3f} Н, Fk2={r['Fk2']:.3f} Н, "
+            f"α={r['alpha']:.1f}°  →  R = {r['R']:.4f} Н")
 
 
 def format_errors(err: dict, symbol: str, unit: str) -> str:
@@ -957,6 +1122,346 @@ def page_lab4():
         export_buttons(txt_content, csv_content, "lab4", "lab4")
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# 10 класс
+# ─────────────────────────────────────────────────────────────────────────────
+
+def page_lab10_1():
+    st.markdown(f'<div class="lab-badge" style="background:linear-gradient(135deg,#059669,#34d399)">{t("lab10_1_badge")}</div>', unsafe_allow_html=True)
+    st.markdown(f"### {t('lab10_1_title')}")
+    st.caption(t("lab10_1_caption"))
+    st.markdown('<div class="formula-box">a = 2S / t²</div>', unsafe_allow_html=True)
+
+    if "lab10_1_count" not in st.session_state:
+        st.session_state.lab10_1_count = 1
+
+    col_add, col_remove, _ = st.columns([1, 1, 6])
+    with col_add:
+        if st.button(t("add_exp"), key="lab10_1_add", use_container_width=True):
+            st.session_state.lab10_1_count += 1
+    with col_remove:
+        if st.button(t("remove_exp"), key="lab10_1_remove", use_container_width=True,
+                     disabled=st.session_state.lab10_1_count <= 1):
+            st.session_state.lab10_1_count -= 1
+
+    st.divider()
+    tab_labels = [f"{t('exp_label')} {i+1}" for i in range(st.session_state.lab10_1_count)]
+    tabs = st.tabs(tab_labels)
+    all_S, all_t = [], []
+    for i, tab in enumerate(tabs):
+        with tab:
+            st.markdown('<div class="exp-card">', unsafe_allow_html=True)
+            S = experiment_number_input(t("lab10_1_S"), "м", key=f"lab10_1_S_{i}", value=1.0)
+            t_val = experiment_number_input(t("lab10_1_t"), "с", key=f"lab10_1_t_{i}", value=1.0)
+            st.markdown("</div>", unsafe_allow_html=True)
+            all_S.append(S)
+            all_t.append(t_val)
+
+    st.divider()
+    if st.button(t("calculate"), key="lab10_1_calc", use_container_width=True, type="primary"):
+        results, error_occurred = [], False
+        for i, (S, t_val) in enumerate(zip(all_S, all_t)):
+            try:
+                results.append(compute_lab10_1(S, t_val))
+            except ZeroDivisionError as e:
+                st.error(f"{t('exp_label')} {i+1}: {e}")
+                error_occurred = True
+                break
+        if not error_occurred:
+            errors = calc_errors([r["a"] for r in results])
+            st.session_state["lab10_1_results"] = results
+            st.session_state["lab10_1_errors"]  = errors
+
+    if "lab10_1_results" in st.session_state:
+        results = st.session_state["lab10_1_results"]
+        errors  = st.session_state["lab10_1_errors"]
+        st.markdown(t("result_header"))
+        metrics_row(results, errors, "a", "м/с²")
+        txt_result = format_result_block(results, errors, format_lab10_1_result, "a", "м/с²")
+        st.markdown(f'<div class="result-box">{txt_result}</div>', unsafe_allow_html=True)
+        txt_content = build_txt(t("lab10_1_title"), results, errors, format_lab10_1_result, "a", "м/с²")
+        csv_content = build_csv(
+            t("lab10_1_title"), results, errors,
+            col_headers=["S (м)", "t (с)", "a (м/с²)"],
+            value_keys=["S", "t", "a"],
+            result_key="a", result_unit="м/с²",
+        )
+        export_buttons(txt_content, csv_content, "lab10_1", "lab10_1")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+
+def page_lab10_2():
+    import json
+    st.markdown(f'<div class="lab-badge" style="background:linear-gradient(135deg,#059669,#34d399)">{t("lab10_2_badge")}</div>', unsafe_allow_html=True)
+    st.markdown(f"### {t('lab10_2_title')}")
+    st.caption(t("lab10_2_caption"))
+    st.markdown('<div class="formula-box">l̄ = (l₁+l₂+l₃+l₄+l₅) / 5  →  График: l̄(α)</div>', unsafe_allow_html=True)
+
+    if "lab10_2_angles" not in st.session_state:
+        st.session_state.lab10_2_angles = [30.0]
+        st.session_state.lab10_2_rows   = [[0.0, 0.0, 0.0, 0.0, 0.0]]
+
+    col_add2, col_rem2, _ = st.columns([1, 1, 6])
+    with col_add2:
+        if st.button(t("add_exp"), key="lab10_2_add", use_container_width=True):
+            st.session_state.lab10_2_angles.append(45.0)
+            st.session_state.lab10_2_rows.append([0.0, 0.0, 0.0, 0.0, 0.0])
+    with col_rem2:
+        if st.button(t("remove_exp"), key="lab10_2_remove", use_container_width=True,
+                     disabled=len(st.session_state.lab10_2_angles) <= 1):
+            st.session_state.lab10_2_angles.pop()
+            st.session_state.lab10_2_rows.pop()
+
+    st.divider()
+    angle_labels = [f"{t('exp_label')} {i+1}" for i in range(len(st.session_state.lab10_2_angles))]
+    tabs = st.tabs(angle_labels)
+    for i, tab in enumerate(tabs):
+        with tab:
+            st.markdown('<div class="exp-card">', unsafe_allow_html=True)
+            angle_val = st.number_input(
+                t("lab10_2_angle") + " (°)",
+                value=st.session_state.lab10_2_angles[i],
+                min_value=0.0, max_value=90.0, step=5.0,
+                key=f"lab10_2_angle_{i}",
+            )
+            st.session_state.lab10_2_angles[i] = angle_val
+            st.markdown(f"**{t('lab10_2_l')}:**")
+            cols = st.columns(5)
+            for j in range(5):
+                with cols[j]:
+                    val = st.number_input(
+                        f"l{j+1}", value=st.session_state.lab10_2_rows[i][j],
+                        min_value=0.0, step=0.1, format="%.2f",
+                        key=f"lab10_2_l_{i}_{j}", label_visibility="visible",
+                    )
+                    st.session_state.lab10_2_rows[i][j] = val
+            mean_val = sum(st.session_state.lab10_2_rows[i]) / 5
+            st.metric(t("lab10_2_mean"), f"{mean_val:.2f} см")
+            st.markdown("</div>", unsafe_allow_html=True)
+
+    st.divider()
+    if st.button(t("calculate"), key="lab10_2_calc", use_container_width=True, type="primary"):
+        angles = list(st.session_state.lab10_2_angles)
+        means  = [sum(row) / 5 for row in st.session_state.lab10_2_rows]
+        st.session_state["lab10_2_plot_angles"] = angles
+        st.session_state["lab10_2_plot_means"]  = means
+
+    if "lab10_2_plot_angles" in st.session_state:
+        angles = st.session_state["lab10_2_plot_angles"]
+        means  = st.session_state["lab10_2_plot_means"]
+        st.markdown(t("result_header"))
+        import pandas as pd
+        chart_data = pd.DataFrame({t("lab10_2_graph_x"): angles, t("lab10_2_graph_y"): means})
+        chart_data = chart_data.sort_values(t("lab10_2_graph_x"))
+        st.line_chart(chart_data.set_index(t("lab10_2_graph_x")),
+                      use_container_width=True)
+        # Таблица итогов
+        rows_html = "".join(
+            f"<tr><td>{a:.1f}°</td><td>{m:.2f} см</td></tr>"
+            for a, m in zip(angles, means)
+        )
+        st.markdown(
+            f"<table style='width:100%;border-collapse:collapse'>"
+            f"<tr><th style='text-align:left;padding:6px'>{t('lab10_2_graph_x')}</th>"
+            f"<th style='text-align:left;padding:6px'>{t('lab10_2_graph_y')}</th></tr>"
+            f"{rows_html}</table>",
+            unsafe_allow_html=True,
+        )
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+
+def page_lab10_3():
+    st.markdown(f'<div class="lab-badge" style="background:linear-gradient(135deg,#059669,#34d399)">{t("lab10_3_badge")}</div>', unsafe_allow_html=True)
+    st.markdown(f"### {t('lab10_3_title')}")
+    st.caption(t("lab10_3_caption"))
+    st.markdown('<div class="formula-box">J = m·R²·(4h·H − l²) / l²</div>', unsafe_allow_html=True)
+
+    if "lab10_3_count" not in st.session_state:
+        st.session_state.lab10_3_count = 1
+
+    col_add, col_remove, _ = st.columns([1, 1, 6])
+    with col_add:
+        if st.button(t("add_exp"), key="lab10_3_add", use_container_width=True):
+            st.session_state.lab10_3_count += 1
+    with col_remove:
+        if st.button(t("remove_exp"), key="lab10_3_remove", use_container_width=True,
+                     disabled=st.session_state.lab10_3_count <= 1):
+            st.session_state.lab10_3_count -= 1
+
+    st.divider()
+    tab_labels = [f"{t('exp_label')} {i+1}" for i in range(st.session_state.lab10_3_count)]
+    tabs = st.tabs(tab_labels)
+    all_m, all_R, all_h, all_H, all_l = [], [], [], [], []
+    for i, tab in enumerate(tabs):
+        with tab:
+            st.markdown('<div class="exp-card">', unsafe_allow_html=True)
+            m_v   = experiment_number_input(t("lab10_3_m"), "кг",  key=f"lab10_3_m_{i}",  value=0.1)
+            R_v   = experiment_number_input(t("lab10_3_R"), "м",   key=f"lab10_3_R_{i}",  value=0.05)
+            h_v   = experiment_number_input(t("lab10_3_h"), "м",   key=f"lab10_3_h_{i}",  value=0.1)
+            H_v   = experiment_number_input(t("lab10_3_H"), "м",   key=f"lab10_3_H_{i}",  value=0.5)
+            l_v   = experiment_number_input(t("lab10_3_l"), "м",   key=f"lab10_3_l_{i}",  value=1.0)
+            st.markdown("</div>", unsafe_allow_html=True)
+            all_m.append(m_v); all_R.append(R_v); all_h.append(h_v)
+            all_H.append(H_v); all_l.append(l_v)
+
+    st.divider()
+    if st.button(t("calculate"), key="lab10_3_calc", use_container_width=True, type="primary"):
+        results, error_occurred = [], False
+        for i, (m, R, h, H, l) in enumerate(zip(all_m, all_R, all_h, all_H, all_l)):
+            try:
+                results.append(compute_lab10_3(m, R, h, H, l))
+            except ZeroDivisionError as e:
+                st.error(f"{t('exp_label')} {i+1}: {e}")
+                error_occurred = True
+                break
+        if not error_occurred:
+            errors = calc_errors([r["J"] for r in results])
+            st.session_state["lab10_3_results"] = results
+            st.session_state["lab10_3_errors"]  = errors
+
+    if "lab10_3_results" in st.session_state:
+        results = st.session_state["lab10_3_results"]
+        errors  = st.session_state["lab10_3_errors"]
+        st.markdown(t("result_header"))
+        metrics_row(results, errors, "J", "кг·м²")
+        txt_result = format_result_block(results, errors, format_lab10_3_result, "J", "кг·м²")
+        st.markdown(f'<div class="result-box">{txt_result}</div>', unsafe_allow_html=True)
+        txt_content = build_txt(t("lab10_3_title"), results, errors, format_lab10_3_result, "J", "кг·м²")
+        csv_content = build_csv(
+            t("lab10_3_title"), results, errors,
+            col_headers=["m (кг)", "R (м)", "h (м)", "H (м)", "l (м)", "J (кг·м²)"],
+            value_keys=["m", "R", "h", "H", "l", "J"],
+            result_key="J", result_unit="кг·м²",
+        )
+        export_buttons(txt_content, csv_content, "lab10_3", "lab10_3")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+
+def page_lab10_4():
+    st.markdown(f'<div class="lab-badge" style="background:linear-gradient(135deg,#059669,#34d399)">{t("lab10_4_badge")}</div>', unsafe_allow_html=True)
+    st.markdown(f"### {t('lab10_4_title')}")
+    st.caption(t("lab10_4_caption"))
+    st.markdown('<div class="formula-box">R = √(Fk1² + Fk2² − 2·Fk1·Fk2·cos α)</div>', unsafe_allow_html=True)
+
+    if "lab10_4_count" not in st.session_state:
+        st.session_state.lab10_4_count = 1
+
+    col_add, col_remove, _ = st.columns([1, 1, 6])
+    with col_add:
+        if st.button(t("add_exp"), key="lab10_4_add", use_container_width=True):
+            st.session_state.lab10_4_count += 1
+    with col_remove:
+        if st.button(t("remove_exp"), key="lab10_4_remove", use_container_width=True,
+                     disabled=st.session_state.lab10_4_count <= 1):
+            st.session_state.lab10_4_count -= 1
+
+    st.divider()
+    tab_labels = [f"{t('exp_label')} {i+1}" for i in range(st.session_state.lab10_4_count)]
+    tabs = st.tabs(tab_labels)
+    all_Fk1, all_Fk2, all_alpha = [], [], []
+    for i, tab in enumerate(tabs):
+        with tab:
+            st.markdown('<div class="exp-card">', unsafe_allow_html=True)
+            G_v     = experiment_number_input(t("lab10_4_G"),  "Н", key=f"lab10_4_G_{i}",     value=1.0)
+            Fk1_v   = experiment_number_input(t("lab10_4_Fk1"),"Н", key=f"lab10_4_Fk1_{i}",  value=1.0)
+            Fk2_v   = experiment_number_input(t("lab10_4_Fk2"),"Н", key=f"lab10_4_Fk2_{i}",  value=1.0)
+            alpha_v = experiment_number_input(t("lab10_4_alpha"),"°",key=f"lab10_4_alpha_{i}",value=60.0)
+            st.markdown("</div>", unsafe_allow_html=True)
+            all_Fk1.append(Fk1_v); all_Fk2.append(Fk2_v); all_alpha.append(alpha_v)
+
+    st.divider()
+    if st.button(t("calculate"), key="lab10_4_calc", use_container_width=True, type="primary"):
+        results, error_occurred = [], False
+        for i, (Fk1, Fk2, alpha) in enumerate(zip(all_Fk1, all_Fk2, all_alpha)):
+            try:
+                results.append(compute_lab10_4(Fk1, Fk2, alpha))
+            except Exception as e:
+                st.error(f"{t('exp_label')} {i+1}: {e}")
+                error_occurred = True
+                break
+        if not error_occurred:
+            errors = calc_errors([r["R"] for r in results])
+            st.session_state["lab10_4_results"] = results
+            st.session_state["lab10_4_errors"]  = errors
+
+    if "lab10_4_results" in st.session_state:
+        results = st.session_state["lab10_4_results"]
+        errors  = st.session_state["lab10_4_errors"]
+        st.markdown(t("result_header"))
+        metrics_row(results, errors, "R", "Н")
+        txt_result = format_result_block(results, errors, format_lab10_4_result, "R", "Н")
+        st.markdown(f'<div class="result-box">{txt_result}</div>', unsafe_allow_html=True)
+        txt_content = build_txt(t("lab10_4_title"), results, errors, format_lab10_4_result, "R", "Н")
+        csv_content = build_csv(
+            t("lab10_4_title"), results, errors,
+            col_headers=["Fk1 (Н)", "Fk2 (Н)", "α (°)", "R (Н)"],
+            value_keys=["Fk1", "Fk2", "alpha", "R"],
+            result_key="R", result_unit="Н",
+        )
+        export_buttons(txt_content, csv_content, "lab10_4", "lab10_4")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 11 класс
+# ─────────────────────────────────────────────────────────────────────────────
+
+def page_lab11_1():
+    st.markdown(f'<div class="lab-badge" style="background:linear-gradient(135deg,#b45309,#f59e0b)">{t("lab11_1_badge")}</div>', unsafe_allow_html=True)
+    st.markdown(f"### {t('lab11_1_title')}")
+    st.caption(t("lab11_1_caption"))
+    st.markdown('<div class="formula-box">N1 = U1·N2 / U2 &nbsp;|&nbsp; N2 = U2·N1 / U1</div>', unsafe_allow_html=True)
+
+    st.markdown(f"#### {t('lab11_1_calc1_header')}")
+    st.markdown('<div class="exp-card">', unsafe_allow_html=True)
+    col1, col2 = st.columns(2)
+    with col1:
+        N2_a  = experiment_number_input(t("lab11_1_N2"),  "шт", key="lab11_1_N2_a",  value=100.0)
+        U2_a  = experiment_number_input(t("lab11_1_U2_a"),"В",  key="lab11_1_U2_a",  value=12.0)
+        U1_a  = experiment_number_input(t("lab11_1_U1_a"),"В",  key="lab11_1_U1_a",  value=220.0)
+    st.markdown("</div>", unsafe_allow_html=True)
+
+    if st.button(t("calculate") + " → N1", key="lab11_1_calc1", use_container_width=True, type="primary"):
+        try:
+            res = compute_lab11_1_N1(N2_a, U2_a, U1_a)
+            st.session_state["lab11_1_res1"] = res
+        except ZeroDivisionError as e:
+            st.error(str(e))
+
+    if "lab11_1_res1" in st.session_state:
+        r = st.session_state["lab11_1_res1"]
+        c1, c2, c3 = st.columns(3)
+        c1.metric("N2", f"{r['N2']:.0f} шт")
+        c2.metric("U1 / U2", f"{r['U1']:.1f} / {r['U2']:.1f} В")
+        c3.metric("N1жуық", f"{r['N1']:.1f} шт")
+        st.markdown(f'<div class="result-box">  N1жуық = U1·N2 / U2 = {r["U1"]:.1f}·{r["N2"]:.0f} / {r["U2"]:.1f} = {r["N1"]:.2f} шт</div>', unsafe_allow_html=True)
+
+    st.divider()
+    st.markdown(f"#### {t('lab11_1_calc2_header')}")
+    st.markdown('<div class="exp-card">', unsafe_allow_html=True)
+    N1_b  = experiment_number_input(t("lab11_1_N1"),  "шт", key="lab11_1_N1_b",  value=1833.0)
+    U2_b  = experiment_number_input(t("lab11_1_U2_b"),"В",  key="lab11_1_U2_b",  value=12.0)
+    U1_b  = experiment_number_input(t("lab11_1_U1_b"),"В",  key="lab11_1_U1_b",  value=220.0)
+    st.markdown("</div>", unsafe_allow_html=True)
+
+    if st.button(t("calculate") + " → N2", key="lab11_1_calc2", use_container_width=True, type="primary"):
+        try:
+            res = compute_lab11_1_N2(N1_b, U2_b, U1_b)
+            st.session_state["lab11_1_res2"] = res
+        except ZeroDivisionError as e:
+            st.error(str(e))
+
+    if "lab11_1_res2" in st.session_state:
+        r = st.session_state["lab11_1_res2"]
+        c1, c2, c3 = st.columns(3)
+        c1.metric("N1жуық", f"{r['N1']:.0f} шт")
+        c2.metric("U2 / U1", f"{r['U2']:.1f} / {r['U1']:.1f} В")
+        c3.metric("N2жуық", f"{r['N2']:.1f} шт")
+        st.markdown(f'<div class="result-box">  N2жуық = U2·N1 / U1 = {r["U2"]:.1f}·{r["N1"]:.0f} / {r["U1"]:.1f} = {r["N2"]:.2f} шт</div>', unsafe_allow_html=True)
+
+
 # ═══════════════════════════════════════════════════════════════════════════════
 #  САЙДБАР
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -1004,21 +1509,53 @@ with st.sidebar:
     st.divider()
 
     # ── Навигация ─────────────────────────────────────────────────────────────
-    st.markdown(f"""
-    <div style='font-size:11px; opacity:0.55; font-weight:600;
-                letter-spacing:1px; padding: 4px 8px 8px'>
-        {t('nav_section')}
-    </div>
-    """, unsafe_allow_html=True)
+    def nav_section_header(label: str):
+        st.markdown(f"""
+        <div style='font-size:11px; opacity:0.55; font-weight:600;
+                    letter-spacing:1px; padding: 4px 8px 4px'>
+            {label}
+        </div>
+        """, unsafe_allow_html=True)
 
-    LABS = [
+    # 9 класс
+    nav_section_header(t("grade9_section"))
+    for label, key in [
         (t("lab1_nav"), "lab1"),
         (t("lab2_nav"), "lab2"),
         (t("lab3_nav"), "lab3"),
         (t("lab4_nav"), "lab4"),
-    ]
+    ]:
+        is_active = st.session_state.active_lab == key
+        if st.button(label, key=f"nav_{key}",
+                     use_container_width=True,
+                     type="primary" if is_active else "secondary"):
+            st.session_state.active_lab = key
+            st.rerun()
 
-    for label, key in LABS:
+    st.markdown("<div style='margin:4px 0'></div>", unsafe_allow_html=True)
+
+    # 10 класс
+    nav_section_header(t("grade10_section"))
+    for label, key in [
+        (t("lab10_1_nav"), "lab10_1"),
+        (t("lab10_2_nav"), "lab10_2"),
+        (t("lab10_3_nav"), "lab10_3"),
+        (t("lab10_4_nav"), "lab10_4"),
+    ]:
+        is_active = st.session_state.active_lab == key
+        if st.button(label, key=f"nav_{key}",
+                     use_container_width=True,
+                     type="primary" if is_active else "secondary"):
+            st.session_state.active_lab = key
+            st.rerun()
+
+    st.markdown("<div style='margin:4px 0'></div>", unsafe_allow_html=True)
+
+    # 11 класс
+    nav_section_header(t("grade11_section"))
+    for label, key in [
+        (t("lab11_1_nav"), "lab11_1"),
+    ]:
         is_active = st.session_state.active_lab == key
         if st.button(label, key=f"nav_{key}",
                      use_container_width=True,
@@ -1046,3 +1583,15 @@ elif st.session_state.active_lab == "lab3":
     page_lab3()
 elif st.session_state.active_lab == "lab4":
     page_lab4()
+# 10 класс
+elif st.session_state.active_lab == "lab10_1":
+    page_lab10_1()
+elif st.session_state.active_lab == "lab10_2":
+    page_lab10_2()
+elif st.session_state.active_lab == "lab10_3":
+    page_lab10_3()
+elif st.session_state.active_lab == "lab10_4":
+    page_lab10_4()
+# 11 класс
+elif st.session_state.active_lab == "lab11_1":
+    page_lab11_1()
