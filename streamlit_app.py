@@ -67,9 +67,11 @@ TRANSLATIONS = {
         "lab10_2_nav": "№2  Ұшу қашықтығы мен бұрыш",
         "lab10_3_nav": "№3  Домалайтын дене қозғалысы",
         "lab10_4_nav": "№4  Күштерді қосу",
+        "lab10_7_nav": "№7  ЭҚК және ішкі кедергі",
         # Lab nav labels — 11 сынып
         "grade11_section": "11-СЫНЫП",
         "lab11_1_nav": "№1  Трансформатор орамдары",
+        "lab11_4_nav": "№4  Шынының сыну көрсеткіші",
         # Lab 1 (9 сынып)
         "lab1_badge": "9-сынып · Зерт. жұмыс №1",
         "lab1_title": "№1 Теңүдемелі қозғалыс кезіндегі дененің үдеуін анықтау",
@@ -128,6 +130,17 @@ TRANSLATIONS = {
         "lab10_4_Fk1": "Fk1 — керілу күші 1 (сила натяжения 1), Н",
         "lab10_4_Fk2": "Fk2 — керілу күші 2 (сила натяжения 2), Н",
         "lab10_4_alpha": "α — бұрыш (угол между силами), °",
+        # Lab 10-7
+        "lab10_7_badge": "10-сынып · Зерт. жұмыс №7",
+        "lab10_7_title": "№7 Ток көзінің электр қозғаушы күші мен ішкі кедергісін анықтау",
+        "lab10_7_caption": "Определение ЭДС и внутреннего сопротивления источника тока",
+        "lab10_7_I1": "I₁ — 1-ші Ток күші (Сила тока 1)",
+        "lab10_7_U1": "U₁ — 1-ші Кернеу (Напряжение 1)",
+        "lab10_7_I2": "I₂ — 2-ші Ток күші (Сила тока 2)",
+        "lab10_7_U2": "U₂ — 2-ші Кернеу (Напряжение 2)",
+        "lab10_7_graph_title": "Кернеу-Ток сипаттамасы (U-I)",
+        "lab10_7_graph_x": "Ток күші I (А)",
+        "lab10_7_graph_y": "Кернеу U (В)",
         # Lab 11-1
         "lab11_1_badge": "11-сынып · Зерт. жұмыс №1",
         "lab11_1_title": "№1 Трансформатор орамдарының санын анықтау",
@@ -140,6 +153,15 @@ TRANSLATIONS = {
         "lab11_1_N1": "N1жуық — бірінші реттік орамадағы орамдардың жуық саны",
         "lab11_1_U2_b": "U2 — екінші реттік орамадағы кернеу, В",
         "lab11_1_U1_b": "U1 — бірінші реттік орамадағы кернеу, В",
+        # Lab 11-4
+        "lab11_4_badge": "11-сынып · Зерт. жұмыс №4",
+        "lab11_4_title": "№4 Шынының сыну көрсеткішін анықтау",
+        "lab11_4_caption": "Определение показателя преломления стекла",
+        "lab11_4_AD": "AD — түскен сәуленің жолы (путь падающего луча)",
+        "lab11_4_CB": "CB — сынған сәуленің жолы (путь преломлённого луча)",
+        "lab11_4_graph_title": "Сыну көрсеткіші (η) тәуелділігі",
+        "lab11_4_graph_x": "Тәжірибе №",
+        "lab11_4_graph_y": "η (сыну көрсеткіші)",
         # CSV header
         "csv_exp_col": "Тәжірибе",
         "csv_mean_row": "Орташа мән",
@@ -188,9 +210,11 @@ TRANSLATIONS = {
         "lab10_2_nav": "№2  Дальность и угол бросания",
         "lab10_3_nav": "№3  Катящееся тело",
         "lab10_4_nav": "№4  Сложение сил",
+        "lab10_7_nav": "№7  ЭДС и внутр. сопротивление",
         # Lab nav labels — 11 класс
         "grade11_section": "11-КЛАСС",
         "lab11_1_nav": "№1  Витки трансформатора",
+        "lab11_4_nav": "№4  Показатель преломления",
         # Lab 1 (9 класс)
         "lab1_badge": "9-класс · Лаб. работа №1",
         "lab1_title": "№1 Определение ускорения тела при равноускоренном движении",
@@ -249,6 +273,17 @@ TRANSLATIONS = {
         "lab10_4_Fk1": "Fk1 — сила натяжения 1, Н",
         "lab10_4_Fk2": "Fk2 — сила натяжения 2, Н",
         "lab10_4_alpha": "α — угол между силами, °",
+        # Lab 10-7
+        "lab10_7_badge": "10-класс · Лаб. работа №7",
+        "lab10_7_title": "№7 Определение ЭДС и внутреннего сопротивления источника тока",
+        "lab10_7_caption": "Ток көзінің электр қозғаушы күші мен ішкі кедергісін анықтау",
+        "lab10_7_I1": "I₁ — Сила тока 1 (1-ші Ток күші)",
+        "lab10_7_U1": "U₁ — Напряжение 1 (1-ші Кернеу)",
+        "lab10_7_I2": "I₂ — Сила тока 2 (2-ші Ток күші)",
+        "lab10_7_U2": "U₂ — Напряжение 2 (2-ші Кернеу)",
+        "lab10_7_graph_title": "Характеристика U-I источника тока",
+        "lab10_7_graph_x": "Ток I (А)",
+        "lab10_7_graph_y": "Напряжение U (В)",
         # Lab 11-1
         "lab11_1_badge": "11-класс · Лаб. работа №1",
         "lab11_1_title": "№1 Определение числа витков трансформатора",
@@ -261,6 +296,15 @@ TRANSLATIONS = {
         "lab11_1_N1": "N1прибл — приближённое число витков первичной обмотки",
         "lab11_1_U2_b": "U2 — напряжение вторичной обмотки, В",
         "lab11_1_U1_b": "U1 — напряжение первичной обмотки, В",
+        # Lab 11-4
+        "lab11_4_badge": "11-класс · Лаб. работа №4",
+        "lab11_4_title": "№4 Определение показателя преломления стекла",
+        "lab11_4_caption": "Шынының сыну көрсеткішін анықтау",
+        "lab11_4_AD": "AD — путь падающего луча (түскен сәуленің жолы)",
+        "lab11_4_CB": "CB — путь преломлённого луча (сынған сәуленің жолы)",
+        "lab11_4_graph_title": "Зависимость показателя преломления (η)",
+        "lab11_4_graph_x": "Опыт №",
+        "lab11_4_graph_y": "η (показатель преломления)",
         # CSV header
         "csv_exp_col": "Опыт",
         "csv_mean_row": "Среднее",
@@ -651,6 +695,23 @@ def compute_lab11_1_N2(N1: float, U2: float, U1: float) -> dict:
     return {"N1": N1, "U2": U2, "U1": U1, "N2": N2}
 
 
+def compute_lab10_7(I1: float, U1: float, I2: float, U2: float) -> dict:
+    """ε = (U2·I1 − U1·I2) / (I1 − I2)  и  r = (U1 − U2) / (I2 − I1)"""
+    if I1 == I2:
+        raise ZeroDivisionError("Токтың мәндері тең болмауы керек — I1 және I2 бірдей болмауы керек")
+    eps = (U2 * I1 - U1 * I2) / (I1 - I2)
+    r   = (U1 - U2) / (I2 - I1)
+    return {"I1": I1, "U1": U1, "I2": I2, "U2": U2, "eps": eps, "r": r}
+
+
+def compute_lab11_4(AD: float, CB: float) -> dict:
+    """η = AD / CB"""
+    if CB == 0:
+        raise ZeroDivisionError("CB нульге тең болмауы керек")
+    eta = AD / CB
+    return {"AD": AD, "CB": CB, "eta": eta}
+
+
 # ═══════════════════════════════════════════════════════════════════════════════
 #  ФОРМАТИРОВАНИЕ РЕЗУЛЬТАТОВ
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -682,6 +743,13 @@ def format_lab10_3_result(idx: int, r: dict) -> str:
 def format_lab10_4_result(idx: int, r: dict) -> str:
     return (f"  {t('exp_label')} {idx}:  Fk1={r['Fk1']:.3f} Н, Fk2={r['Fk2']:.3f} Н, "
             f"α={r['alpha']:.1f}°  →  R = {r['R']:.4f} Н")
+
+def format_lab10_7_result(idx: int, r: dict) -> str:
+    return (f"  {t('exp_label')} {idx}:  I1={r['I1']:.4f} А, U1={r['U1']:.4f} В,  "
+            f"I2={r['I2']:.4f} А, U2={r['U2']:.4f} В  →  ε = {r['eps']:.4f} В,  r = {r['r']:.4f} Ом")
+
+def format_lab11_4_result(idx: int, r: dict) -> str:
+    return (f"  {t('exp_label')} {idx}:  AD={r['AD']:.4f},  CB={r['CB']:.4f}  →  η = {r['eta']:.4f}")
 
 
 def format_errors(err: dict, symbol: str, unit: str) -> str:
@@ -1462,6 +1530,219 @@ def page_lab11_1():
         st.markdown(f'<div class="result-box">  N2жуық = U2·N1 / U1 = {r["U2"]:.1f}·{r["N1"]:.0f} / {r["U1"]:.1f} = {r["N2"]:.2f} шт</div>', unsafe_allow_html=True)
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+
+def page_lab10_7():
+    import pandas as pd
+    st.markdown(f'<div class="lab-badge" style="background:linear-gradient(135deg,#059669,#34d399)">{t("lab10_7_badge")}</div>', unsafe_allow_html=True)
+    st.markdown(f"### {t('lab10_7_title')}")
+    st.caption(t("lab10_7_caption"))
+    st.markdown(
+        '<div class="formula-box">'
+        'ε = (U₂·I₁ − U₁·I₂) / (I₁ − I₂) &nbsp;|&nbsp; r = (U₁ − U₂) / (I₂ − I₁)'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    if "lab10_7_count" not in st.session_state:
+        st.session_state.lab10_7_count = 1
+
+    col_add, col_remove, _ = st.columns([1, 1, 6])
+    with col_add:
+        if st.button(t("add_exp"), key="lab10_7_add", use_container_width=True):
+            st.session_state.lab10_7_count += 1
+    with col_remove:
+        if st.button(t("remove_exp"), key="lab10_7_remove", use_container_width=True,
+                     disabled=st.session_state.lab10_7_count <= 1):
+            st.session_state.lab10_7_count -= 1
+
+    st.divider()
+    tab_labels = [f"{t('exp_label')} {i+1}" for i in range(st.session_state.lab10_7_count)]
+    tabs = st.tabs(tab_labels)
+    all_I1, all_U1, all_I2, all_U2 = [], [], [], []
+    for i, tab in enumerate(tabs):
+        with tab:
+            st.markdown('<div class="exp-card">', unsafe_allow_html=True)
+            col_a, col_b = st.columns(2)
+            with col_a:
+                st.markdown("**Өлшем 1 / Измерение 1**")
+                I1_v = experiment_number_input(t("lab10_7_I1"), "А", key=f"lab10_7_I1_{i}", value=1.0)
+                U1_v = experiment_number_input(t("lab10_7_U1"), "В", key=f"lab10_7_U1_{i}", value=4.0)
+            with col_b:
+                st.markdown("**Өлшем 2 / Измерение 2**")
+                I2_v = experiment_number_input(t("lab10_7_I2"), "А", key=f"lab10_7_I2_{i}", value=2.0)
+                U2_v = experiment_number_input(t("lab10_7_U2"), "В", key=f"lab10_7_U2_{i}", value=3.0)
+            st.markdown("</div>", unsafe_allow_html=True)
+            all_I1.append(I1_v); all_U1.append(U1_v)
+            all_I2.append(I2_v); all_U2.append(U2_v)
+
+    st.divider()
+    if st.button(t("calculate"), key="lab10_7_calc", use_container_width=True, type="primary"):
+        results, error_occurred = [], False
+        for i, (I1, U1_, I2, U2_) in enumerate(zip(all_I1, all_U1, all_I2, all_U2)):
+            try:
+                results.append(compute_lab10_7(I1, U1_, I2, U2_))
+            except ZeroDivisionError as e:
+                st.error(f"{t('exp_label')} {i+1}: {e}")
+                error_occurred = True
+                break
+        if not error_occurred:
+            errors_eps = calc_errors([r["eps"] for r in results])
+            errors_r   = calc_errors([r["r"]   for r in results])
+            st.session_state["lab10_7_results"]    = results
+            st.session_state["lab10_7_errors_eps"] = errors_eps
+            st.session_state["lab10_7_errors_r"]   = errors_r
+
+    if "lab10_7_results" in st.session_state:
+        results    = st.session_state["lab10_7_results"]
+        errors_eps = st.session_state["lab10_7_errors_eps"]
+        errors_r   = st.session_state["lab10_7_errors_r"]
+
+        st.markdown(t("result_header"))
+
+        # Метрики — ε
+        col1, col2, col3, col4 = st.columns(4)
+        col1.metric("ε орт (В)", f"{errors_eps['mean']:.4f}" if errors_eps else "—")
+        col2.metric("Δε (В)",    f"{errors_eps['abs_err']:.4f}" if errors_eps else "—")
+        col3.metric("r орт (Ом)", f"{errors_r['mean']:.4f}" if errors_r else "—")
+        col4.metric("Δr (Ом)",    f"{errors_r['abs_err']:.4f}" if errors_r else "—")
+
+        txt_result = format_result_block(results, errors_eps, format_lab10_7_result, "ε", "В")
+        st.markdown(f'<div class="result-box">{txt_result}</div>', unsafe_allow_html=True)
+
+        # ── График U-I ────────────────────────────────────────────────────────
+        st.markdown(f"#### 📈 {t('lab10_7_graph_title')}")
+        # Теоретическая прямая U = ε − r·I  +  все экспериментальные точки
+        if errors_eps and errors_r:
+            eps_mean = errors_eps["mean"]
+            r_mean   = errors_r["mean"]
+
+            # Все экспериментальные точки из всех опытов
+            exp_points_I = [r["I1"] for r in results] + [r["I2"] for r in results]
+            exp_points_U = [r["U1"] for r in results] + [r["U2"] for r in results]
+
+            I_min = max(0.0, min(exp_points_I) * 0.8)
+            I_max = max(exp_points_I) * 1.2
+            I_line = [I_min + (I_max - I_min) * k / 60 for k in range(61)]
+            U_line = [eps_mean - r_mean * I for I in I_line]
+
+            theory_label = "U = ε − r·I"
+            exp_label    = "Тәжірибе / Опыт"
+
+            df_theory = pd.DataFrame({
+                t("lab10_7_graph_x"): I_line,
+                theory_label: U_line,
+            }).set_index(t("lab10_7_graph_x"))
+
+            exp_pairs = sorted(zip(exp_points_I, exp_points_U))
+            df_exp = pd.DataFrame({
+                t("lab10_7_graph_x"): [p[0] for p in exp_pairs],
+                exp_label:            [p[1] for p in exp_pairs],
+            }).set_index(t("lab10_7_graph_x"))
+
+            df_final = df_theory.join(df_exp, how="outer").sort_index()
+            st.line_chart(df_final, use_container_width=True)
+            st.caption(
+                f"ε = {eps_mean:.4f} В,  r = {r_mean:.4f} Ом  →  U = ε − r·I  "
+                f"| Тәжірибелер саны: {len(results)}, өлшем нүктелері: {len(exp_points_I)}"
+            )
+
+
+        # Экспорт
+        txt_content = build_txt(t("lab10_7_title"), results, errors_eps, format_lab10_7_result, "ε", "В")
+        csv_content = build_csv(
+            t("lab10_7_title"), results, errors_eps,
+            col_headers=["I1 (А)", "U1 (В)", "I2 (А)", "U2 (В)", "ε (В)", "r (Ом)"],
+            value_keys=["I1", "U1", "I2", "U2", "eps", "r"],
+            result_key="eps", result_unit="В",
+        )
+        export_buttons(txt_content, csv_content, "lab10_7", "lab10_7")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+
+def page_lab11_4():
+    import pandas as pd
+    st.markdown(f'<div class="lab-badge" style="background:linear-gradient(135deg,#b45309,#f59e0b)">{t("lab11_4_badge")}</div>', unsafe_allow_html=True)
+    st.markdown(f"### {t('lab11_4_title')}")
+    st.caption(t("lab11_4_caption"))
+    st.markdown('<div class="formula-box">η = AD / CB</div>', unsafe_allow_html=True)
+    st.markdown(
+        '<div class="warn-box">AD — түскен сәуленің нормальдан горизонталь жол ұзындығы; '
+        'CB — сынған сәуленің нормальдан горизонталь жол ұзындығы.</div>',
+        unsafe_allow_html=True,
+    )
+
+    if "lab11_4_count" not in st.session_state:
+        st.session_state.lab11_4_count = 1
+
+    col_add, col_remove, _ = st.columns([1, 1, 6])
+    with col_add:
+        if st.button(t("add_exp"), key="lab11_4_add", use_container_width=True):
+            st.session_state.lab11_4_count += 1
+    with col_remove:
+        if st.button(t("remove_exp"), key="lab11_4_remove", use_container_width=True,
+                     disabled=st.session_state.lab11_4_count <= 1):
+            st.session_state.lab11_4_count -= 1
+
+    st.divider()
+    tab_labels = [f"{t('exp_label')} {i+1}" for i in range(st.session_state.lab11_4_count)]
+    tabs = st.tabs(tab_labels)
+    all_AD, all_CB = [], []
+    for i, tab in enumerate(tabs):
+        with tab:
+            st.markdown('<div class="exp-card">', unsafe_allow_html=True)
+            AD_v = experiment_number_input(t("lab11_4_AD"), "мм", key=f"lab11_4_AD_{i}", value=30.0)
+            CB_v = experiment_number_input(t("lab11_4_CB"), "мм", key=f"lab11_4_CB_{i}", value=20.0)
+            st.markdown("</div>", unsafe_allow_html=True)
+            all_AD.append(AD_v)
+            all_CB.append(CB_v)
+
+    st.divider()
+    if st.button(t("calculate"), key="lab11_4_calc", use_container_width=True, type="primary"):
+        results, error_occurred = [], False
+        for i, (AD, CB) in enumerate(zip(all_AD, all_CB)):
+            try:
+                results.append(compute_lab11_4(AD, CB))
+            except ZeroDivisionError as e:
+                st.error(f"{t('exp_label')} {i+1}: {e}")
+                error_occurred = True
+                break
+        if not error_occurred:
+            errors = calc_errors([r["eta"] for r in results])
+            st.session_state["lab11_4_results"] = results
+            st.session_state["lab11_4_errors"]  = errors
+
+    if "lab11_4_results" in st.session_state:
+        results = st.session_state["lab11_4_results"]
+        errors  = st.session_state["lab11_4_errors"]
+
+        st.markdown(t("result_header"))
+        metrics_row(results, errors, "eta", "")
+
+        txt_result = format_result_block(results, errors, format_lab11_4_result, "η", "")
+        st.markdown(f'<div class="result-box">{txt_result}</div>', unsafe_allow_html=True)
+
+        # ── График η по опытам ────────────────────────────────────────────────
+        if len(results) >= 2:
+            st.markdown(f"#### 📈 {t('lab11_4_graph_title')}")
+            exp_nums = list(range(1, len(results) + 1))
+            eta_vals = [r["eta"] for r in results]
+            df = pd.DataFrame({t("lab11_4_graph_x"): exp_nums, t("lab11_4_graph_y"): eta_vals})
+            st.line_chart(df.set_index(t("lab11_4_graph_x")), use_container_width=True)
+            if errors:
+                st.caption(f"η орт = {errors['mean']:.4f},  Δη = {errors['abs_err']:.4f}")
+
+        txt_content = build_txt(t("lab11_4_title"), results, errors, format_lab11_4_result, "η", "")
+        csv_content = build_csv(
+            t("lab11_4_title"), results, errors,
+            col_headers=["AD (мм)", "CB (мм)", "η"],
+            value_keys=["AD", "CB", "eta"],
+            result_key="eta", result_unit="",
+        )
+        export_buttons(txt_content, csv_content, "lab11_4", "lab11_4")
+
+
 # ═══════════════════════════════════════════════════════════════════════════════
 #  САЙДБАР
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -1541,6 +1822,7 @@ with st.sidebar:
         (t("lab10_2_nav"), "lab10_2"),
         (t("lab10_3_nav"), "lab10_3"),
         (t("lab10_4_nav"), "lab10_4"),
+        (t("lab10_7_nav"), "lab10_7"),
     ]:
         is_active = st.session_state.active_lab == key
         if st.button(label, key=f"nav_{key}",
@@ -1555,6 +1837,7 @@ with st.sidebar:
     nav_section_header(t("grade11_section"))
     for label, key in [
         (t("lab11_1_nav"), "lab11_1"),
+        (t("lab11_4_nav"), "lab11_4"),
     ]:
         is_active = st.session_state.active_lab == key
         if st.button(label, key=f"nav_{key}",
@@ -1592,6 +1875,10 @@ elif st.session_state.active_lab == "lab10_3":
     page_lab10_3()
 elif st.session_state.active_lab == "lab10_4":
     page_lab10_4()
+elif st.session_state.active_lab == "lab10_7":
+    page_lab10_7()
 # 11 класс
 elif st.session_state.active_lab == "lab11_1":
     page_lab11_1()
+elif st.session_state.active_lab == "lab11_4":
+    page_lab11_4()
